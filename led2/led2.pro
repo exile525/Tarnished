@@ -13,6 +13,9 @@ SOURCES += \
     widget.cpp
 
 HEADERS += \
+    fsmpBeeper.h \
+    fsmpEvents.h \
+    fsmpFan.h \
     fsmpLed.h \
     widget.h
 
