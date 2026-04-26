@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>prompt.txt</file>
+        <file>tu/222.jpg</file>
+    </qresource>
+</RCC>

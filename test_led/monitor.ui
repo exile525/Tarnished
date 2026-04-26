@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Monitor</class>
+ <widget class="QWidget" name="Monitor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>摄像头界面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* 全局背景 — 与智能家居界面一致 */
+QWidget#Monitor {
+    background-color: #e6f7ff;
+}
+
+/* 全局标签样式 */
+QLabel {
+    font: 11pt &quot;Microsoft YaHei&quot;;
+    color: #333333;
+}
+
+/* 摄像头显示区域 */
+QLabel#label {
+    background-color: #e6f7ff;
+    border: 1px solid #dcdfe6;
+    border-radius: 10px;
+    padding: 10px;
+    font: 11pt &quot;Microsoft YaHei&quot;;
+    color: #909399;
+}
+
+/* 按钮样式 — 与家居界面按钮完全一致 */
+QPushButton {
+    background-color: #409eff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    font: 10pt &quot;Microsoft YaHei&quot;;
+}
+QPushButton:hover {
+    background-color: #66b1ff;
+}
+QPushButton:pressed {
+    background-color: #337ecc;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>331</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>摄像头</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>180</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回主界面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
